@@ -1,0 +1,169 @@
+
+  
+
+* {
+    box-sizing: border-box;
+    background: rgb(172, 171, 171);
+  }
+  /* heading */
+  .h2heading:hover{
+color: bisque;
+text-shadow: rgb(127, 146, 58);
+  }
+  .div1{
+padding-left: 9px;
+padding-bottom: 9px;
+  }
+  /* end heading */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    resize: vertical;
+  }
+::placeholder{
+    color: #f2f2f2;
+}
+/* placeholder setting */
+#profileimage{
+padding-top: 40px;
+}
+.btnstyle{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/* cuntry name  */
+#country{
+    color: #f2f2f2;
+}
+#country:hover{
+    color: black;
+}
+#missingsince{
+    padding-top: 10px;
+}
+.imagtag{
+    box-sizing: 4px;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+body{ 
+    font-family:Arial; 
+    /* background:rgb(172, 135, 135); */
+    color:whitesmoke;
+  
+}
+  /* form */
+form{
+    width:50rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(11, 15, 13, 0.582);
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding-top: 40px white;
+    padding-bottom: 40px white;
+  }
+  .main form{
+    background-color: grey;
+    padding: 30rem;
+    
+    
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    padding-bottom: 9px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a08845;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding: 16px;
+  }
+  
+  .col-25 {
+    padding-top: 20px;
+    float:  left;
+    width: 25%;
+    padding-left: 35px;
+    margin-top: 6px;
+    margin-right: 5px;
+  }
+  
+  .col-75 {
+    padding-top: 20px;
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+    color: #f2f2f2;
+  }
+  .btn1{
+
+    margin-right: 50px;
+    
+    }
+    
+    .btn2{
+    
+    margin-left: 50px;
+    
+    }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  
+  }
+  .btn1{
+
+    margin-right: 70px;
+    
+    }
+    
+    .btn2{
+    
+    margin-right: 70px;
+    
+    }
+    

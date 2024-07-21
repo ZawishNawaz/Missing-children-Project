@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="childdetail.css">
+    <link rel="stylesheet" href="main.js">
+    
+    
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Profile Information</title>
+   
+</head>
+
+
+<body>
+   
+
+    <div class="div1">
+       <center><h2 class="h2heading">Child Profile</h2>
+        <p style="text-align: justify;">By creating a child profile, you can help raise awareness about your child's case and increase the chances of finding them. Our website is also a platform for families to connect with others who are going through similar experiences and share resources and support.</p></center> 
+    </div>
+    <form class="main form">
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="profilepicture"  id="profileimage" >Profile Picture</label>
+                    </div>
+                    <div class="col-75">
+                        
+                       
+                        
+                        <img class="imagtag" src="log.jpeg" alt="Avatar">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="age">Age</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="age" name="age" placeholder="Your age..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="height">Height</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="height" name="height" placeholder="Your height.">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="missingsince">Missing Since</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="missingsince" name="missingsince" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Gender</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="australia">Female</option>
+                            <option value="canada">Male</option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Pakistan's City</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="australia">Kyber Pakhtun Khawa</option>
+                            <option value="canada">Islamabad</option>
+                            <option value="usa">Kharachi</option>
+                            <option value="usa">Lahore</option>
+                            <option value="usa">Multan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lastlocation">Last Location</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lastlocation" name="lastlocation" placeholder="last location">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Brief info About Missing Child</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write about the Missing Child"
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="btnstyle">
+                    <div class="row">
+                        <input type="submit" class="btn1" value="Submit">
+                        <input type="submit" class="btn2" value="Cancel">
+
+                    </div>
+                </div>
+            </form>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

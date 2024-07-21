@@ -1,0 +1,25 @@
+.container  {
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 82rem; /* adjust as needed */
+    color: rgb(173, 50, 1);
+    text-align: center;
+}
+:placeholder-shown{
+  
+    margin-top: 7px;
+    height: 40px;
+}
+.btn{
+    height: 54px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    }
+    .btn:hover{
+      background:#f8d628;
+    }

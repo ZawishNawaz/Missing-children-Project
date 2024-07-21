@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="guardiandails.css">
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian Profile Information</title>
+</head>
+<body>
+
+    <div class="div1">
+       <center><h2 class="h2heading">Guardian Profile</h2>
+        <p style="text-align: justify;">Our "Guardian Profile" section provides a platform for guardians or caregivers of missing children to share information about their role and connect with other guardians who are going through similar experiences. If you are a guardian or caregiver of a missing child, you can create a profile on our website to share your information and connect with other guardians who are facing similar challenges.</p></center> 
+    </div>
+    <form class="main form">
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="profilepicture"  id="profileimage" >Profile Picture</label>
+                    </div>
+                    <div class="col-75">
+                        
+                       
+                        
+                        <img class="imagtag" src="log.jpeg" alt="Avatar">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="nameofguardian">Name of Guardian</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="nameofguardian" name="nameofguardian" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fathername">Ftaher name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fathername" name="fathername" placeholder="Your Father name..">
+                    </div>
+                </div>
+              
+                 
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Gender</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="australia">Female</option>
+                            <option value="canada">Male</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="relationwithChild">Relation With Child</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="relationwithChild" name="relationwithChild" placeholder="Relation With Child.">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Pakistan's City</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="australia">Kyber Pakhtun Khawa</option>
+                            <option value="canada">Islamabad</option>
+                            <option value="usa">Kharachi</option>
+                            <option value="usa">Lahore</option>
+                            <option value="usa">Multan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lastlocation">Last Location</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lastlocation" name="lastlocation" placeholder="last location of missing child">
+                    </div>
+                </div>
+               
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="enter your valid email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Cnicnumber">CNIC Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="Cnicnumber" name="Cnicnumber" placeholder="enter your cnic number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="phonenumber">Phone Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="phonenumber" name="phonenumber" placeholder="enter your valid number">
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Brief info About Missing Child</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write about the Missing Child"
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="btnstyle">
+                    <div class="row">
+                        <input type="submit" class="btn1" value="Submit">
+                        <input type="submit" class="btn2" value="Cancel">
+
+                    </div>
+                </div>
+            </form>
+    </form>
+    </div>
+    
+    
+</body>
+
+</html>
